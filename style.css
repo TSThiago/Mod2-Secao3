@@ -1,0 +1,32 @@
+/* CSS Reset */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none
+}
+
+/* Form */
+
+form{
+    margin: 3em auto;
+    width:80vw;
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+.formSection{
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+    width:250px;
+}
+
+.buttons{
+    margin-top: 3em;
+}
