@@ -1,0 +1,59 @@
+/* CSS Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration:none
+}
+
+/* Header */
+
+.bar{
+    height: 7.5vh;
+    width: 100vw;
+    background-color: #ffdb15;
+}
+
+.searchBar {
+    text-align: center;
+}
+
+.searchBar input {
+    margin-top: 1.5em;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-left: #ffdb15;
+    border-right: #ffdb15;
+}
+
+.navBar span {
+    margin:auto 3em
+}
+
+/* Content */
+
+.content {
+    background-color: #ebebeb;
+    height: 85vh;
+    width: 100vw;
+}
+
+.offers {
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    height:20vh;
+    width:70vw;
+    border-radius: 0.8em;
+    background-color: #ffffff;
+}
+
+.firstOffer , .offer {
+    margin:auto
+}
